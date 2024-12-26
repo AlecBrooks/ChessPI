@@ -1,0 +1,15 @@
+Package: ChessPI
+Type: Package
+Title: Interact with the Chess.com API
+Version: 0.1.0
+Author: Alec Brooks
+Maintainer: The package maintainer <alec@abrooks.dev>
+Description: This Tool is for interacting with the Chess.com API and downloading records of your games.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    httr,
+    jsonlite
+RoxygenNote: 7.3.2.9000
