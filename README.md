@@ -29,15 +29,15 @@ remotes::install_github("AlecBrooks/ChessPI/v0.1.0")
 library(ChessPI)
 
 # Retrieve available months
-months <- archive(username = "example_user")
+months <- chessPI.archive(username = "example_user")
 print(months)
 
 # Download all games for a user
-all_games <- pull(username = "example_user")
+all_games <- chessPI.pull(username = "example_user")
 
 # Download games for a specific range
-range_games <- pull(username = "example_user", range = c("2023-01", "2023-03"))
+range_games <- chessPI.pull(username = "example_user", range = "year/month")
 
 # Test with default username
-default_games <- pull()
+default_games <- chessPI.pull()
 ```
