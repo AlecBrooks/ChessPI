@@ -20,7 +20,7 @@ Install ChessPI via the following steps:
 
 ```R
 install.packages("remotes")
-remotes::install_github("AlecBrooks/ChessPI/v0.1.0")
+remotes::install_github("AlecBrooks/ChessPI/current")
 ```
 
 ### Usage Example 🧰
